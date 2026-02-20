@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Screenshot",
+  "version": "1.0",
+  "description": "Cmd+Shift+S — скриншот видимой части страницы",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "take-screenshot": {
+      "suggested_key": {
+        "mac": "Command+Shift+S",
+        "default": "Ctrl+Shift+S"
+      },
+      "description": "Скриншот видимой части страницы"
+    }
+  }
+}
