@@ -2,7 +2,12 @@
   "manifest_version": 3,
   "name": "Quick Screenshot",
   "version": "1.0",
-  "description": "Cmd+Shift+S — скриншот видимой части страницы",
+  "description": "Cmd+Shift+S — capture the visible part of the page",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "permissions": [
     "activeTab",
     "downloads",
@@ -17,7 +22,7 @@
         "mac": "Command+Shift+S",
         "default": "Ctrl+Shift+S"
       },
-      "description": "Скриншот видимой части страницы"
+      "description": "Capture the visible part of the page"
     }
   }
 }
